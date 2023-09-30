@@ -5,6 +5,15 @@
 
 }
 
+@font-face {
+    font-family: 'Quartan';
+    src: url(./Quartan-LT-Std-Bold_37193.ttf);
+}
+
+h1, h2, h3, nav {
+    font-family: 'Quartan';
+}
+
 header {
     color: aliceblue;
     font-family:q 
@@ -206,7 +215,7 @@ p {
     background-color: rgb(253, 251, 251);
     overflow: hidden;
     position: relative;
-    float: right;
+    float: center;
     flex-direction: row;
     
 }
@@ -226,6 +235,11 @@ footer li a{
     flex-direction: row;
     
     
+}
+
+h3 {
+    text-align: center;
+    display: block;
 }
 
 
@@ -299,12 +313,14 @@ footer li a{
         margin-right: 100px;
         margin-bottom: 0px;
         list-style: none;
-        background-color: black;
+        background-color: rgb(253, 251, 251);
         overflow: hidden;
         position: relative;
-        float: right;
+        float: center;
         flex-direction: row;
         
     }
+    
+
     
 }
